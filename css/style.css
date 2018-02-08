@@ -1,26 +1,243 @@
 .row {
-    max-width: 1150px;
     margin: 0 auto;
     display: flex;
+    max-width: 1170px;
 }
 
-.content {
-    max-width: 1150px;
+.link {
+    text-decoration: none;
+}
+
+.latest-products {
+    padding-bottom: 31px;
 }
 
 .page {
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
+.btn {
+    border: 1px solid #FFF;
+    color: #fff;
+}
+
+.header {
+    position: relative;
+    margin: 0 auto -34px;
+    z-index: 1;
+}
 .header__row {
-    justify-content: space-between;
     align-items: center;
+    max-width: 100%;
+}
+
+.logo {
 }
 
 .navigation {
+    padding-left: 296px;
+}
+.navigation__element {
+    font-family: opensans, sans-serif;
+    font-size: 19px;
+    margin-left: 70px;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider__slide {
+    background: url("../img/slider.png") no-repeat #444444;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding-bottom: 316px;
+}
+
+.slider__text {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider__h2 {
+    margin: 0 auto;
+    padding-top: 282px;
+    font-family: opensans-light, sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    letter-spacing: 6.4px;
+    word-spacing: 7px;
+}
+
+.slider__h1 {
+    font-family: lato-blackk, sans-serif;
+    font-size: 60px;
+    margin: 0;
+    padding-top: 33px;
+    letter-spacing: -1.3px;
+}
+
+.slider__p {
+    font-family: opensans-light, sans-serif;
+    font-size: 30px;
+    letter-spacing: -1.8px;
+    padding-top: 32px;
+    margin: 0 auto;
+}
+
+.slider__btn {
+    font-family: lato-black, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 49px auto 0;
+    padding: 17px 48px;
+}
+
+.slider__nav {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 630px;
+}
+
+.slider__dot {
+    content: "";
+    padding: 6px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.is-active {
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+
+.latest-products__h2 {
+    font-size: 40px;
+    font-family: opensans-light-italic, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    margin-top: 84px;
+    padding-bottom: 53px;
+    position: relative;
+}
+
+.latest-products__h2:before {
+    position: absolute;
+    content: "";
+    background-color: #ff0000;
+    padding-top: 3px;
+    width: 110px;
+    margin-left: 82px;
+    margin-top: -25px;
+}
+
+.latest-products__h2:after {
+    position: absolute;
+    content: "";
+    background-color: #ff0000;
+    padding-top: 3px;
+    width: 110px;
+    margin-left: -194px;
+    margin-top: 69px;
+}
+
+.latest-products__row {
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.latest-products__item {
+    position: relative;
+    display: flex;
+}
+
+.latest-products__item_small {
+    max-width: 33%;
+}
+
+.latest-products__item_medium {
 
 }
 
-.navigation__element {
+.latest-products__btn {
+    text-align: center;
+    position: absolute;
+    margin: 0 auto;
+}
 
+.latest-products__btn_small {
+    font-family: opensans-light-italic, sans-serif;
+    font-size: 40px;
+    border-width: 3px;
+    padding: 152px 0;
+    margin: 30px;
+    width: 83%;
+}
+
+.latest-products__btn_medium {
+    font-family: lato-black, sans-serif;
+    font-size: 45px;
+    border: none;
+    width: 100%;
+    margin-top: 130px;
+    line-height: 1.2;
+}
+
+.needname {
+
+    padding-left: 29px;
+}
+
+@font-face {
+    font-family: "opensans";
+    src: url("/fonts/opensans.ttf");
+}
+
+@font-face {
+    font-family: "opensans-bold";
+    src: url("/fonts/opensans-bold.ttf");
+}
+
+@font-face {
+    font-family: "opensans-light";
+    src: url("/fonts/opensans-light.ttf");
+}
+
+@font-face {
+    font-family: "opensans-light-italic";
+    src: url("/fonts/opensans-light-italic.ttf");
+
+}
+
+@font-face {
+    font-family: "lato-regular";
+    src: url("/fonts/lato-regular.ttf");
+}
+
+@font-face {
+    font-family: "lato-bold";
+    src: url("/fonts/lato-bold.ttf");
+}
+
+@font-face {
+    font-family: "lato-black";
+    src: url("/fonts/lato-black.ttf");
+}
+
+@font-face {
+    font-family: "beabasneue-book";
+    src: url("/fonts/beabasneue-book.otf");
+}
+
+@font-face {
+    font-family: "beabasneue-regular";
+    src: url("/fonts/beabasneue-regular.otf");
 }
